@@ -32,7 +32,8 @@ The information returned by this method should have the property that it can be 
 # Task 5
 Add a rental car to the system. Implement this using a method with the following header: def add_rental_car(self, manufacturer_name, car_model) An example of calling this method is:
 rental_object.add_rental_car(“BMW”, “3 Series”) When a rental is first added to the system it is initially not rented by any user. Multiple cars with the same manufacturer and model may be added to the system. You can assume that no two manufacturers will have a car model with the same name.
-# Task 6 Return all associated pieces of information relating to the set of rental cars currently not rented (i.e. a set of car manufacturers and models). Implement this using a method with the following header:
+# Task 6
+Return all associated pieces of information relating to the set of rental cars currently not rented (i.e. a set of car manufacturers and models). Implement this using a method with the following header:
 def return_cars_not_rented(self)
 An example of calling this method is:
 rental_object.return_cars_not_rented()
